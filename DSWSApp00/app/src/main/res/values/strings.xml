@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DSWSApp00</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register2">Register2</string>
+    <string name="pref_file">com.abc.preference_file</string>
+    <string name="pref_login_status">com.abc.preference_login_status</string>
+    <string name="pref_user_name">com.abc.preference_user_name</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_having_account">Already Have Credentials?</string>
+    <string name="log_in">Log In</string>
+    <string name="not_having_account">Create New User Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="access_token" translatable="false">sk.eyJ1Ijoicm1qZmFtYXQiLCJhIjoiY2p2M2ZtdzhzMDR6NzN5bWl0c2JrbGxvZyJ9.31-Y_o3jnJmP-pAluR9fGQ</string>
+    <string name="click_on_map_instruction">Tap on the map</string>
+    <string name="query_feature_marker_title">Properties:</string>
+    <string name="query_feature_marker_snippet">No feature properties found</string>
+</resources>

@@ -1,0 +1,210 @@
+
+.top{
+  margin-top: 800px !important;
+}
+.bg-dark{
+  background-color: #1d2731 !important;
+}
+.home-header{
+  width: 100%;
+  max-width: 600px;
+  padding-top: 50px;
+  margin-top: 90px !important;
+  margin: auto;
+}
+.login-header{
+  width: 100%;
+  max-width: 600px;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+.custom-height{
+  height: 55px;
+}
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-left{
+  position: absolute;
+  left: 10px;
+  top: 18px;
+}
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+.padd {
+  top: 20 px;
+  right: 10px;
+}
+.links > a {
+    color: #FE8606;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.m-b-md {
+    margin-bottom: 30px;
+}
+.btn-redirect{
+  color: white;
+  text-decoration: none;
+}
+.tbody-light{
+  background-color: #328cc1;
+}
+.custom-width{
+  margin-top: 50px;
+  width: 100%;
+}
+
+.h3-normal{
+  font-size: 160%;
+  font-weight: 400;
+  color: #000;
+}
+
+.h3-bold{
+  font-size: 210%;
+  font-weight: 600;
+  color: #000;
+}
+
+.h3-bolder{
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.h3-end{
+  font-size: 95%;
+  font-weight: 300;
+}
+
+.h3-out{
+  margin-top: 30px !important;
+  font-size: 120%;
+  font-weight: 300;
+}
+.hrefBtn{
+  padding: 5px;
+}
+.home-header{
+  width: 100%;
+  max-width: 600px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  margin: auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  height: 3.125rem;
+  padding: .75rem;
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}

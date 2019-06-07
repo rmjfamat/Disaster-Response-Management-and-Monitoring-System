@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCFEFC"
+
+    tools:context=".Assistances">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+
+            <Button
+                android:id="@+id/assitance1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Food Packs"
+                android:onClick="foodpacks"
+                android:background="#FF91D1FB"/>
+
+            <Button
+                android:id="@+id/assitance2"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Relief Packs"
+                android:gravity="center"
+                android:onClick="reliefpacks"
+                android:background="#FF91D1FB"/>
+
+            <Button
+                android:id="@+id/assitance3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Health Kits"
+                android:gravity="center"
+                android:onClick="healthkits"
+                android:background="#FF91D1FB"/>
+
+            <Button
+                android:id="@+id/assitance4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Housing Materials"
+                android:onClick="housing"
+                android:gravity="center"
+
+                android:background="#FF91D1FB"/>
+
+            <Button
+                android:id="@+id/assitance5"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="20dp"
+                android:text="Financial Assistance"
+                android:onClick="financial"
+                android:gravity="center"
+
+                android:background="#FF91D1FB"/>
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

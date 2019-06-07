@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCFEFC"
+    tools:context=".Create">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Create new table for new fire incident."
+                    android:textSize="18sp"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/codename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="codename"
+                    android:inputType="text"
+                    android:padding="8dp" />
+
+
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Date of incident"
+                    android:inputType="text"
+                    android:padding="8dp" />
+
+
+                <EditText
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Time of incident"
+                    android:inputType="text"
+                    android:padding="8dp" />
+
+
+                <EditText
+                android:id="@+id/region"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/white"
+                android:hint="Region"
+                android:inputType="text"
+                android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/province"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Province"
+                    android:inputType="textCapSentences"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/municipal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Municipality"
+                    android:inputType="textCapSentences"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/barangay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Barangay"
+                    android:inputType="textCapSentences"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/sitio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Sitio"
+                    android:inputType="textCapSentences"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/accesstoken"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Mapbox Acess Token"
+                    android:inputType="textCapSentences"
+                    android:padding="8dp"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/mapID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Map ID"
+                    android:inputType="textCapSentences"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/sourceLayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@android:color/white"
+                    android:hint="Source Layer Name"
+                    android:inputType="textCapSentences"
+                    android:padding="8dp" />
+
+                <Button
+                    android:id="@+id/btnCreate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="#f05924"
+                    android:text="Add New Fire Incident"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

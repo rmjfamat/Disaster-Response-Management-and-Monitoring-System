@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCFEFC"
+    android:paddingBottom="5dp"
+    tools:context=".Register2">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <FrameLayout
+                android:id="@+id/frame2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FAMILY HEAD"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/firstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:hint=" Firstname"
+                    android:inputType="textPersonName"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/middlename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:hint=" Middlename"
+                    android:inputType="textPersonName"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/surname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:hint=" Surname"
+                    android:inputType="textPersonName"
+                    android:textSize="18sp" />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/others"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/frame2"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <TextView
+                    android:id="@+id/head_age_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Age"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/head_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:hint=" Age"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="85dp"
+                    android:text="Sex"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroupHead"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="115dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp">
+
+                    <RadioButton
+                        android:id="@+id/head_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Male"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/head_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#000000"
+                        android:text="Female"
+                        android:checked="false"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/addresstxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:text="Address"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:hint=" Address"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/bday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="230dp"
+                    android:text="Date of Birth"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/bday_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="265dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:hint=" Month date, year"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/occupation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="310dp"
+                    android:text="Occupation"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/occupation_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="340dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:hint=" Occupation"
+                    android:layout_marginRight="10dp"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/income"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="385dp"
+                    android:text="Monthly Income"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/income_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="415dp"
+                    android:hint=" Income"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/civstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="460dp"
+                    android:text="Civil Status"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/civil_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="490dp"
+                    android:hint=" Civil Status"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ethnicityText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="535dp"
+                    android:text="Ethnicity"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/ethnicity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="565dp"
+                    android:hint=" Ethnicity"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="text"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/fourps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="610dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="2dp"
+                    android:text="4PS Member"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/estimate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="655dp"
+                    android:text="Ethnicity"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/estimateddamages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="685dp"
+                    android:hint=" Extimated Damaged"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/houseDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/hoseCase_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Resident Category"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/houseCase"
+                    android:orientation="vertical"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp">
+
+                    <RadioButton
+                        android:id="@+id/owner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="House Owner Totally"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/renter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="House Owner Partially"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/OR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Absentee Owner"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/ORF"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Sharer"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/sharerOf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:hint=" Sharer of"
+                        android:background="#66cccc"
+                        android:padding="6dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:inputType="text"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/ONC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Renter"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/renterOf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:hint=" Renter of"
+                        android:background="#66cccc"
+                        android:padding="6dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:inputType="text"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/RFC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Lodger or Boarder"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/lodgerOf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:hint=" Lodger/Boarder of"
+                        android:background="#66cccc"
+                        android:padding="6dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="15dp"
+                        android:inputType="text"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/houseCondition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/houseConTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="House Condition"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_house_condition"
+                    android:orientation="vertical"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp">
+
+                    <RadioButton
+                        android:id="@+id/partially"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Partially Damaged"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/totally"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Totally Damaged"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/code_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/code_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Special Specification"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/victimCode"
+                    android:orientation="vertical"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp">
+
+                    <RadioButton
+                        android:id="@+id/codeA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Senior Citizen"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/codeB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Lactating Mother"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/codeC"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="PWD"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/codeD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Solo Parent"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/codeE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Pregnant"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/health_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/health_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Victim's Health Condition"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/healthCode"
+                    android:orientation="vertical"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp">
+
+                    <RadioButton
+                        android:id="@+id/health05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Unharmed"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/health01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Dead"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/health02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Injured"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/health03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Missing"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/health04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="With Illness"
+                        android:checked="false"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/fam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAMILY MEMBERS"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"/>
+
+            <FrameLayout
+                android:id="@+id/family_members"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/member_name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Name"
+                    android:inputType="textPersonName"
+                    android:background="#a6FFFFFF"
+                    android:layout_marginTop="5dp"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/member_relation1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Relation to family head"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/member_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Sex"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioAddmemberGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="90dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp">
+
+                    <RadioButton
+                        android:id="@+id/member_male1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/member_female1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Female"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/member_age1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Age"
+                    android:inputType="number"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="130dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/member_education1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Education"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="170dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/member_skills1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Occupational skills"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="210dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/member_remarks1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Remarks"
+                    android:inputType="textShortMessage"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="18sp" />
+
+                <View android:background="#c5cae9"
+                    android:layout_gravity="bottom"
+                    android:layout_width = "match_parent"
+                    android:layout_height="1dp" />
+
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/addMembers2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/name2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Name"
+                    android:inputType="textPersonName"
+                    android:background="#a6FFFFFF"
+                    android:layout_marginTop="5dp"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/relation2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Relation to family head"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/member_gender2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Sex"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioAddmember2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="90dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp">
+
+                    <RadioButton
+                        android:id="@+id/male22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/female22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Female"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/age2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Age"
+                    android:inputType="number"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="130dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/education2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Education"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="170dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/skills2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Occupational skills"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="210dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/remarks2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Remarks"
+                    android:inputType="textShortMessage"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="18sp" />
+
+                <View android:background="#c5cae9"
+                    android:layout_gravity="bottom"
+                    android:layout_width = "match_parent"
+                    android:layout_height="1dp" />
+
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/addMembers3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/name3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Name"
+                    android:inputType="textPersonName"
+                    android:background="#a6FFFFFF"
+                    android:layout_marginTop="5dp"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/relation3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Relation to family head"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/member_gender3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Sex"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioAddmember3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="90dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp">
+
+                    <RadioButton
+                        android:id="@+id/male23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/female23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Female"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/age3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Age"
+                    android:inputType="number"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="130dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/education3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Education"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="170dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/skills3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Occupational skills"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="210dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/remarks3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Remarks"
+                    android:inputType="textShortMessage"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="18sp" />
+
+                <View android:background="#c5cae9"
+                    android:layout_gravity="bottom"
+                    android:layout_width = "match_parent"
+                    android:layout_height="1dp" />
+
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/addMembers4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/name4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Name"
+                    android:inputType="textPersonName"
+                    android:background="#a6FFFFFF"
+                    android:layout_marginTop="5dp"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/relation4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Relation to family head"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/member_gender4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:text="Sex"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioAddmember4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="90dp"
+                    android:background="#a6FFFFFF"
+                    android:padding="2dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="10dp">
+
+                    <RadioButton
+                        android:id="@+id/male24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/female24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Female"
+                        android:textSize="18sp" />
+                </RadioGroup>
+
+                <EditText
+                    android:id="@+id/age4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Age"
+                    android:inputType="number"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="130dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/education4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" Education"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="170dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/skills4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Occupational skills"
+                    android:inputType="text"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="210dp"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/remarks4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Remarks"
+                    android:inputType="textShortMessage"
+                    android:background="#a6FFFFFF"
+                    android:padding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="18sp" />
+
+                <View android:background="#c5cae9"
+                    android:layout_gravity="bottom"
+                    android:layout_width = "match_parent"
+                    android:layout_height="1dp" />
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/addbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp">
+
+                <Button
+                    android:id="@+id/addFamily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:background="#D178E3F8"
+                    android:padding="10dp"
+                    android:text="Add Member" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/srcinfoTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Source of information:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/infoSource"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:hint=" Name"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textCapSentences"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/witTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp"
+                    android:text="Witnesed by:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/witness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="105dp"
+                    android:hint=" Name"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textCapSentences"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/regtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp"
+                    android:text="Interviewed and registered by:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/interviewer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:hint=" Name"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textCapSentences"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dateReg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="225dp"
+                    android:text="Date Registered:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/date_registered"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="255dp"
+                    android:hint=" Month date, year"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textCapSentences"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/validTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="300dp"
+                    android:text="Validated by:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/validator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="330dp"
+                    android:hint=" Name"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textCapSentences"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/datevalid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="375dp"
+                    android:text="Date Registered:"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/date_validated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="405dp"
+                    android:hint=" Month date, year"
+                    android:background="#a6FFFFFF"
+                    android:padding="7dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textCapSentences"
+                    android:textSize="18sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp">
+
+                <CheckBox
+                    android:id="@+id/verif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:text="Check if already Verified"
+                    android:textColor="#072f5f"
+                    android:textSize="20sp"/>
+
+                <Button
+                    android:id="@+id/insert_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="45dp"
+                    android:background="#f05924"
+                    android:text="Save Victim Data"
+                    android:textColor="@android:color/white"/>
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDCFEFC"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:paddingTop="65dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            app:srcCompat="@drawable/dsws" />
+
+        <TextView
+            android:id="@+id/astxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="165dp"
+            android:text="Disaster Relief           Management App"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/dsws"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:fontFamily="sans-serif-black"
+            android:text="DSWS"
+            android:textColor="#1251a0"
+            android:textSize="60sp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/cont"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:layout_marginTop="300dp"
+            android:background="#B233DCD9"
+            android:text="Continue" />
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
