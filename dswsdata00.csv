@@ -1,0 +1,26 @@
+"fireincident00","0",,,,,,,
+"fireincident00","0",,,,,,,
+"1","Helena","Gracia","Mendoza","50","Female","Drihoa, Lahug,  Cebu","Married","May 20, 1969","None","0","Absentee Owner",,,,NULL,"Unharmed","10000","Cebuano","No","no family member","no family member","no family member","Yes",NULL,NULL,"Marietta Archeo","April 23, 2019","Marietta Archeo","April 23, 2019","Yes",NULL,"Yes",,
+"2","Erlinda","Jangay","Sugabo","60","Female",NULL,NULL,NULL,NULL,NULL,"Renter",,"Gracia Natividad",,NULL,NULL,,NULL,"No","no family member","no family member","no family member","Yes",NULL,NULL,"Leah Japson","April 25, 2019","Leah Japson","April 25, 2019","Yes",NULL,NULL,,
+"3","Mutya","Banaag","Camson","32","Female",NULL,NULL,NULL,NULL,NULL,"Absentee Owner",,,,NULL,NULL,,NULL,"No","no family member","no family member","no family member","No",NULL,NULL,"Leah Japson","April 26, 2019",NULL,NULL,"Yes",NULL,NULL,,"Yes"
+"4","Jamin","Sales","Carreon","30","Male",NULL,"Single","July 24, 1989",NULL,NULL,"Sharer","Linda Osam",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,"Leah Japson","April 26, 2019",NULL,NULL,NULL,NULL,NULL,,
+"5","Lina","Agnus","Soliman","48","Female","Drihoa,  Lahug, Cebu","Married","December 12, 1971","Call Center","15000","Renter",,"Maria Lacad",,"Pregnant",,"50000","Cebuano","No","Name: Joseph Soliman
+Relation to head: Son
+Age: 20
+Sex: Male
+Education: n/a
+Skills: n/a
+Remarks: n/a","Name: May Ann Soliman
+Relation to head: Daughter
+Age: 9
+Sex: Female
+Education: n/a
+Skills: n/a
+Remarks: ","no family member","No","Lina Soliman",,"Marietta Archeo","April 23, 2019","not yet",,NULL,NULL,NULL,,
+"6","Jun","Mercado","Jayme","30","Male",NULL,"Single","May 2, 1989","Teller","20000","House Owner Partially",,,,NULL,NULL,"40000","Cebuano","No","no family member","no family member","no family member","No",NULL,NULL,"Leah Japson","April 24, 2019",NULL,NULL,NULL,NULL,NULL,,
+"7","Cecelia","Minda","Olivar","28","Female",,,,,,"Lodger or Boarder",,,"Luisa Manus",,,,,"No","no family member","no family member","no family member","Yes",,,"Marietta Archeo","April 25, 2019","Marietta Archeo","April 25, 2019",NULL,NULL,NULL,,
+"1","2014_10_12_000000_create_users_table","1"
+"2","2014_10_12_100000_create_password_resets_table","1"
+"1","Ruffa Mae Famat","admin00","$2y$10$iYethc8nHuDiKe5PrBru3.Syz1rCx/QC1sz2543La.foNfgMIbRiW","6af4d249c7dcc12d18f2afe6159bec358d8437f1ec3ffd2a55849c99427334e6"
+"29","fireincident00","April 22, 2019","6:00 PM","Region 7","Cebu","Cebu City","Lahug","Drihoa","sk.eyJ1Ijoicm1qZmFtYXQiLCJhIjoiY2p2M2ZtdzhzMDR6NzN5bWl0c2JrbGxvZyJ9.31-Y_o3jnJmP-pAluR9fGQ","rmjfamat.cjv6ozeol26lv2xpnsitvdn9w-0e1o4","Basak"
+"1","Ruffa Mae Famat","famat_admin00",NULL,"$2y$10$wl4zGWiE/P25XiJH9d26tu0AYMQ.ZpdUhWnn9gIrpqzrnZ6zCVUcG",NULL,"2019-04-09 14:45:24","2019-04-09 14:45:24"
